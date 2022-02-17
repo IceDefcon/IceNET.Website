@@ -1,5 +1,6 @@
 # IceNET.Website
-Version 2.0 of the IceNET Website
+
+Version 3.0 of the IceNET Website
 
 Development is continued directly on HTTP server
 
