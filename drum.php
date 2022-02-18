@@ -9,12 +9,13 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="/js/main.js"></script>
 		<style>
-  		.carousel-inner > .item > img,
-  		.carousel-inner > .item > a > img {
+			.carousel-inner > .item > img,
+  		.carousel-inner > .item > a > img 
+  		{
       	width: 100%;
       	margin: 15px;
   		}
-  		</style>
+  	</style>
 	</head>
 	
   <body style="background-color:white;">
