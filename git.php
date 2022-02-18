@@ -50,8 +50,21 @@
     </div>
   </div>
 
-  <center>
-    <div class="container">
-      <embed src="ice.marek.pdf" width="1100px" height="800px" text-align: center>
-    </div>
-  </center>
+<div class="container">
+    <h1>IceNet Projects </h1>
+</div>
+
+<div class="container">
+  <a href="https://github.com/IceDefcon/IceNET.AntennaMatrix">IceNET.AntennaMatrix</a><br>
+  <a href="https://github.com/IceDefcon/IceNET.DmaEngine">IceNET.DmaEngine</a><br>
+  <a href="https://github.com/IceDefcon/IceNET.NetworkAnalyser">IceNET.NetworkAnalyser</a><br>
+</div>
+
+<div class="container">
+    <h1>K64F Projects </h1>
+</div>
+
+<div class="container">
+  <a href="https://github.com/IceDefcon/K64F.FreeRTOS">K64F.FreeRTOS</a><br>
+  <a href="https://github.com/IceDefcon/K64F.FreeRTOS.LWIP">K64F.FreeRTOS.LWIP</a><br>
+</div>

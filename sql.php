@@ -50,8 +50,37 @@
     </div>
   </div>
 
-  <center>
-    <div class="container">
-      <embed src="ice.marek.pdf" width="1100px" height="800px" text-align: center>
-    </div>
-  </center>
+<div class="container">
+    <h1> SQL Database Testing </h1>
+</div>
+
+<div class="container">
+
+    <?php
+$servername = "localhost";
+$username = "35670400_icenet";
+$password = "password123";
+$dbname = "35670400_icenet";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT id, address, data FROM dma";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo "id: " . $row["id"]. " - Address: " . $row["address"]. " Data: " . $row["data"]. "<br>";
+  }
+} else {
+  echo "0 results";
+}
+$conn->close();
+?>
+
+</div>
