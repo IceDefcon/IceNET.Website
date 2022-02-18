@@ -5,11 +5,9 @@
 		<title>IceNET Website</title>
 		<link rel="stylesheet" href="/css/style.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/canvasjs.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="/js/main.js"></script>
-		<script src="/js/power.js" ></script>
 		<style>
   		.carousel-inner > .item > img,
   		.carousel-inner > .item > a > img {
@@ -22,10 +20,9 @@
 
 	<div class="container">
 	<a href="https://github.com/IceDefcon">
-	<img align="right" src="/img/defcon.png" >
+	<img align="right" src="/img/ice.png" >
 	</a>
 	</p>
-        <h1>IceNET Menu2</h1>
 	<br>
 	</div>
 
@@ -66,7 +63,7 @@
 	        </li>
 	        <li><a href="under.php">Sub2</a>
 	        </li>
-	        <li><a href="under.php">Sum3</a>
+	        <li><a href="under.php">Sub3</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -85,11 +82,11 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner" role="listbox">
 	      <div class="item active">
-	        <img src="/img/under.png" alt="Under PNG" width="460" height="345">
+	        <img src="/img/under.png" alt="Under PNG">
 	      </div>
 
 	      <div class="item">
-	        <img src="/img/under.jpg" alt="Under JPG" width="460" height="345">
+	        <img src="/img/under2.png" alt="Under JPG">
 	      </div>
 	    </div>
 

@@ -20,10 +20,9 @@
 
 	<div class="container">
 	<a href="https://github.com/IceDefcon">
-	<img align="right" src="/img/defcon.png" >
+        <img align="right" src="/img/ice.png" />
 	</a>
 	</p>
-        <h1>IceNET Menu1</h1>
 	<br>
 	</div>
 
@@ -64,7 +63,7 @@
 	        </li>
 	        <li><a href="under.php">Sub2</a>
 	        </li>
-	        <li><a href="under.php">Sum3</a>
+	        <li><a href="under.php">Sub3</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -87,7 +86,7 @@
 	      </div>
 
 	      <div class="item">
-	        <img src="/img/under.jpg" alt="Under JPG">
+	        <img src="/img/under2.png" alt="Under JPG">
 	      </div>
 	    </div>
 

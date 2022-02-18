@@ -14,10 +14,9 @@
 	
 	<div class="container">
 	<a href="https://github.com/IceDefcon">
-	<img align="right" src="/img/defcon.png" >
+        <img align="right" src="/img/ice.png" />
 	</a>
 	</p>
-        <h1>IceNET@Maket</h1>
 	<br>
 	</div>
 
@@ -58,7 +57,7 @@
 	        </li>
 	        <li><a href="under.php">Sub2</a>
 	        </li>
-	        <li><a href="under.php">Sum3</a>
+	        <li><a href="under.php">Sub3</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -67,13 +66,15 @@
 
 
 <div class="container">
-    <p style="float: left;"><img src="/img/data.jpg"></p>
+    <p style="float: left;"><img src="/img/net.jpg"></p>
     <br><br>
-    <h1>DMA Engine</h1>
+    <h2>Market Data Analysis</h2>
     <hr>
-    <h2>TCP Server/Client</h2>
+    <h2>TCP Server Control</h2>
     <h2>SQL Databases</h2>
-    <h2>Safe Tread Coding</h2>
+    <h2>Thread Safe Procedures</h2>
+    <h2>C/C++ and ASM Coding</h2>
     <hr>
+    <a href="https://github.com/IceDefcon/IceNET.DmaEngine">IceNET.DmaEngine</a>
 </div>
 

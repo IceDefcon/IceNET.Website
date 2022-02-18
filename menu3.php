@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-UK">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>IceNET Website</title>
 		<link rel="stylesheet" href="/css/style.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,10 +19,9 @@
 
 	<div class="container">
 	<a href="https://github.com/IceDefcon">
-	<img align="right" src="/img/defcon.png" >
+	<img align="right" src="/img/ice.png" >
 	</a>
 	</p>
-        <h1>IceNET Menu3</h1>
 	<br>
 	</div>
 
@@ -64,7 +62,7 @@
 	        </li>
 	        <li><a href="under.php">Sub2</a>
 	        </li>
-	        <li><a href="under.php">Sum3</a>
+	        <li><a href="under.php">Sub3</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -83,11 +81,11 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner" role="listbox">
 	      <div class="item active">
-	        <img src="/img/under.png" alt="Under PNG" width="460" height="345">
+	        <img src="/img/under.png" alt="Under PNG">
 	      </div>
 
 	      <div class="item">
-	        <img src="/img/under.jpg" alt="Under JPG" width="460" height="345">
+	        <img src="/img/under2.png" alt="Under JPG">
 	      </div>
 	    </div>
 

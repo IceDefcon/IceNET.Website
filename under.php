@@ -4,19 +4,25 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>IceNET Website</title>
 		<link rel="stylesheet" href="/css/style.css"/>
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="/js/main.js"></script>
+		<style>
+  		.carousel-inner > .item > img,
+  		.carousel-inner > .item > a > img {
+      	width: 100%;
+      	margin: 15px;
+  		}
+  		</style>
 	</head>
-
 	<body style="background-color:white;">
-	
+
 	<div class="container">
 	<a href="https://github.com/IceDefcon">
-	<img align="right" src="/img/defcon.png" >
+	<img align="right" src="/img/ice.png" >
 	</a>
-	<h1>UNDER CONSTRUCTION</h1>
+	</p>
 	<br>
 	</div>
 
@@ -57,13 +63,41 @@
 	        </li>
 	        <li><a href="under.php">Sub2</a>
 	        </li>
-	        <li><a href="under.php">Sum3</a>
+	        <li><a href="under.php">Sub3</a>
 	        </li>
 	      </ul>
 	    </div>
 	  </div>
 	</div>
 
-<div id="image" class="container">
-    <img id="container" src="/img/under.jpg"></p>
-</div>
+	<div class="container">
+	  <br>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner" role="listbox">
+	      <div class="item active">
+	        <img src="/img/under.png" alt="Under PNG">
+	      </div>
+
+	      <div class="item">
+	        <img src="/img/under2.png" alt="Under JPG">
+	      </div>
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</div>
