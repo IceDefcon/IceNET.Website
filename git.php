@@ -35,18 +35,16 @@
       </div>
 
       <div class="btn-group" role="group">
-        <a class="btn btn-primary" href="sql.php" role="button">SQL</a>
+        <a class="btn btn-primary" href="mysql.php" role="button">MySQL</a>
       </div> 
 
+
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Music <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-right dropdown-menu-wide">
-          <li><a href="defcon24.php">Defcon 24</a></li>
-          <li><a href="drum.php">DB</a></li>
-          </li>
-        </ul>
-      </div>
+        <a class="btn btn-primary" href="cv.php" role="button">CV</a>
+      </div> 
+
+    </div>
+  </div>
     </div>
   </div>
 
