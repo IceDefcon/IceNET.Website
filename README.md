@@ -1,7 +1,7 @@
 # IceNET.Website
 
-IceNET Website
+Development is continued directly at ---> HTTP server
 
-Development is continued directly on HTTP server
+Current progres can be viewed at  www.icenet.online
 
-Current progres can be viewed: icenet.online
+# ICE
